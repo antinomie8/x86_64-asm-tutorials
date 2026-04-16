@@ -71,9 +71,8 @@ There are two main types of endianness:
         |----------------|-----------------------------|
         |0x00            | 12                          |
         |0x01            | 34                          |
-        |0x02            | 45                          |
-        |0x03            | 56                          |
-        |0x04            | 78                          |
+        |0x02            | 56                          |
+        |0x03            | 78                          |
 
 2. **Little-Endian**
    - The least significant byte (the "small end") is stored at the smallest memory address.
@@ -195,8 +194,8 @@ The **memory hierarchy** refers to the different level of memory storage in a co
 #### 4.1.3 **Registers**
   - Small, fast storage locations within the CPU used to hold data temporarily during instruction execution.
   - Different types of registers include:
-    - **General-Purpse Registers**: Used for various data operations.(eg: `R0`, `R1`, `R2`, etc)
-    - **Special-Purpse Registers**: Used for specific functions.(eg: `RSP`, `RBP`, etc)
+    - **General-Purpose Registers**: Used for various data operations.(eg: `R0`, `R1`, `R2`, etc)
+    - **Special-Purpose Registers**: Used for specific functions.(eg: `RIP`, the instruction pointer)
 #### 4.1.4 **Instruction Formats**
   - The structure of an instruction, typically includes these fields:
     - **OpCode**: Specifies the operation that is to be performed.
