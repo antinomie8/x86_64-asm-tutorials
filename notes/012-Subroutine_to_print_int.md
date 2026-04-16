@@ -155,4 +155,4 @@ printRAX:
 
 22. `.done:` Defines a label to which we jump after printing all the values we stored in buffer (reserved memory).
     - Prints the new line char using `sys_write` syscall.
-    - Pop the stack back into RIP to continute the execution.
+    - Pop the stack back into RIP to continue the execution.
