@@ -50,8 +50,8 @@ There are three main types of buses:
    - The CPU places the memory address it wants to access on the address bus (target memory address). This bus carries the address of the memory location where the data is to be read from or written to.
 2. **Control Bus**
    - The CPU sends a control signal over the control bus to indicate whether it wants to perform a read or write operation.
-     - Read -> The control bus will instruct the memory bus to send data back to the CPU.
-     - Write -> The control bus will instruct the memory bus to accept data from the CPU.
+     - Read -> The control bus will instruct the data bus to send data back to the CPU.
+     - Write -> The control bus will instruct the data bus to accept data from the CPU.
 3. **Data Bus**
    - Carries the actual data that is to be written to the memory or read from the memory.
      - Read operation -> The value on the target memory address is placed on the data bus which is then read by CPU.
