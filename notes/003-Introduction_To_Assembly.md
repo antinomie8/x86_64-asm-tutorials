@@ -140,11 +140,11 @@ Immediate values are of four types:
         mov rax, 0b11001000     ; binary again
         mov rax, 11001000y      ; binary yet again
         mov rax, 0y11001000     ; binary yet again
-        mov rax, 0b1100_1000    ; above examples can have undersores too
+        mov rax, 0b1100_1000    ; above examples can have underscores too
     ```
 - Character constant
     ```asm
-        mov al, 'a'     ; moves the ASCII valeu of 'a' that is 97 (takes one B) into 8 bit version of rax register
+        mov al, 'a'     ; moves the ASCII value of 'a' that is 97 (takes one B) into 8 bit version of rax register
     ```
 - String constant
     ```asm
